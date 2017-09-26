@@ -1,28 +1,25 @@
 # GOV.UK Notify Manuals
 
-## Document Purpose
+Why do we need this manual, who are our intended users? Users/ Technical implementation
 
-Users/ Technical implementation
-
-## System Overview
+### System Overview
 What does the system do?
 Background
 
-## System Boundaries
+### System Boundaries
 What does the application interact with
 What other systems interact with it
 
-## Sub-systems
+### Sub-systems
 I.e. API, Admin, Clients, AWS, Email Autoscaling etc
 
-## Dataflow / Sequence
+### Dataflow / Sequence
 Use cases with flow through the system for common paths i.e. one for csv one for client etc
 Maybe for common sub-systems i.e. how does auto scaling and monitoring work
 
-## Security
+### Security
 Common security mechanisms i.e. SMS protection
 Whitelisting etc
 
-
-## Other technical documents
+### Other technical documents
     link to other python documentations

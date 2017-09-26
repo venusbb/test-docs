@@ -2,18 +2,13 @@
     "docs": [
         {
             "location": "/", 
-            "text": "GOV.UK Notify Manuals\n\n\nDocument Purpose\n\n\nUsers/ Technical implementation\n\n\nSystem Overview\n\n\nWhat does the system do?\nBackground\n\n\nSystem Boundaries\n\n\nWhat does the application interact with\nWhat other systems interact with it\n\n\nSub-systems\n\n\nI.e. API, Admin, Clients, AWS, Email Autoscaling etc\n\n\nDataflow / Sequence\n\n\nUse cases with flow through the system for common paths i.e. one for csv one for client etc\nMaybe for common sub-systems i.e. how does auto scaling and monitoring work\n\n\nSecurity\n\n\nCommon security mechanisms i.e. SMS protection\nWhitelisting etc\n\n\nOther technical documents\n\n\nlink to other python documentations", 
+            "text": "GOV.UK Notify Manuals\n\n\nWhy do we need this manual, who are our intended users? Users/ Technical implementation\n\n\nSystem Overview\n\n\nWhat does the system do?\nBackground\n\n\nSystem Boundaries\n\n\nWhat does the application interact with\nWhat other systems interact with it\n\n\nSub-systems\n\n\nI.e. API, Admin, Clients, AWS, Email Autoscaling etc\n\n\nDataflow / Sequence\n\n\nUse cases with flow through the system for common paths i.e. one for csv one for client etc\nMaybe for common sub-systems i.e. how does auto scaling and monitoring work\n\n\nSecurity\n\n\nCommon security mechanisms i.e. SMS protection\nWhitelisting etc\n\n\nOther technical documents\n\n\nlink to other python documentations", 
             "title": "Home"
         }, 
         {
             "location": "/#govuk-notify-manuals", 
-            "text": "", 
+            "text": "Why do we need this manual, who are our intended users? Users/ Technical implementation", 
             "title": "GOV.UK Notify Manuals"
-        }, 
-        {
-            "location": "/#document-purpose", 
-            "text": "Users/ Technical implementation", 
-            "title": "Document Purpose"
         }, 
         {
             "location": "/#system-overview", 
