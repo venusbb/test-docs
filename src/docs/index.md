@@ -1,17 +1,28 @@
-# Welcome to MkDocs
+# GOV.UK Notify Manuals
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+## Document Purpose
 
-## Commands
+Users/ Technical implementation
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## `System Overview`
+What does the system do?
+Background
 
-## Project layout
+## System Boundaries
+What does the application interact with
+What other systems interact with it
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Sub-systems
+I.e. API, Admin, Clients, AWS, Email Autoscaling etc
+
+## Dataflow / Sequence
+Use cases with flow through the system for common paths i.e. one for csv one for client etc
+Maybe for common sub-systems i.e. how does auto scaling and monitoring work
+
+## Security
+Common security mechanisms i.e. SMS protection
+Whitelisting etc
+
+
+## Other technical documents
+    link to other python documentations

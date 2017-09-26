@@ -1,4 +1,4 @@
-site_name: notify-manuals
+site_name: GOV.UK Notify Manuals
 pages:
     - Home: index.md
     - About: about.md
