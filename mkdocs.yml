@@ -1,0 +1,5 @@
+site_name: notify-manuals
+pages:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
