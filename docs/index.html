@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="shortcut icon" href="./img/favicon.ico">
 
-    <title>notify-manuals</title>
+    <title>GOV.UK Notify Manuals</title>
 
     <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -54,7 +54,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">notify-manuals</a>
+            <a class="navbar-brand" href=".">GOV.UK Notify Manuals</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -107,12 +107,27 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="first-level active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
+        <li class="first-level active"><a href="#govuk-notify-manuals">GOV.UK Notify Manuals</a></li>
         
-            <li class="second-level"><a href="#commands">Commands</a></li>
+            <li class="second-level"><a href="#document-purpose">Document Purpose</a></li>
             
         
-            <li class="second-level"><a href="#project-layout">Project layout</a></li>
+            <li class="second-level"><a href="#system-overview">System Overview</a></li>
+            
+        
+            <li class="second-level"><a href="#system-boundaries">System Boundaries</a></li>
+            
+        
+            <li class="second-level"><a href="#sub-systems">Sub-systems</a></li>
+            
+        
+            <li class="second-level"><a href="#dataflow-sequence">Dataflow / Sequence</a></li>
+            
+        
+            <li class="second-level"><a href="#security">Security</a></li>
+            
+        
+            <li class="second-level"><a href="#other-technical-documents">Other technical documents</a></li>
             
         
     
@@ -120,20 +135,25 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="http://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h1 id="govuk-notify-manuals">GOV.UK Notify Manuals</h1>
+<h2 id="document-purpose">Document Purpose</h2>
+<p>Users/ Technical implementation</p>
+<h2 id="system-overview">System Overview</h2>
+<p>What does the system do?
+Background</p>
+<h2 id="system-boundaries">System Boundaries</h2>
+<p>What does the application interact with
+What other systems interact with it</p>
+<h2 id="sub-systems">Sub-systems</h2>
+<p>I.e. API, Admin, Clients, AWS, Email Autoscaling etc</p>
+<h2 id="dataflow-sequence">Dataflow / Sequence</h2>
+<p>Use cases with flow through the system for common paths i.e. one for csv one for client etc
+Maybe for common sub-systems i.e. how does auto scaling and monitoring work</p>
+<h2 id="security">Security</h2>
+<p>Common security mechanisms i.e. SMS protection
+Whitelisting etc</p>
+<h2 id="other-technical-documents">Other technical documents</h2>
+<pre><code>link to other python documentations
 </code></pre></div>
         
     </div>
@@ -187,5 +207,5 @@ docs/
 
 <!--
 MkDocs version : 0.16.3
-Build Date UTC : 2017-09-26 17:51:57
+Build Date UTC : 2017-09-26 18:04:34
 -->

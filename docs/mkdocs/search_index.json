@@ -2,23 +2,48 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "GOV.UK Notify Manuals\n\n\nDocument Purpose\n\n\nUsers/ Technical implementation\n\n\nSystem Overview\n\n\nWhat does the system do?\nBackground\n\n\nSystem Boundaries\n\n\nWhat does the application interact with\nWhat other systems interact with it\n\n\nSub-systems\n\n\nI.e. API, Admin, Clients, AWS, Email Autoscaling etc\n\n\nDataflow / Sequence\n\n\nUse cases with flow through the system for common paths i.e. one for csv one for client etc\nMaybe for common sub-systems i.e. how does auto scaling and monitoring work\n\n\nSecurity\n\n\nCommon security mechanisms i.e. SMS protection\nWhitelisting etc\n\n\nOther technical documents\n\n\nlink to other python documentations", 
             "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
+            "location": "/#govuk-notify-manuals", 
+            "text": "", 
+            "title": "GOV.UK Notify Manuals"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#document-purpose", 
+            "text": "Users/ Technical implementation", 
+            "title": "Document Purpose"
         }, 
         {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/#system-overview", 
+            "text": "What does the system do?\nBackground", 
+            "title": "System Overview"
+        }, 
+        {
+            "location": "/#system-boundaries", 
+            "text": "What does the application interact with\nWhat other systems interact with it", 
+            "title": "System Boundaries"
+        }, 
+        {
+            "location": "/#sub-systems", 
+            "text": "I.e. API, Admin, Clients, AWS, Email Autoscaling etc", 
+            "title": "Sub-systems"
+        }, 
+        {
+            "location": "/#dataflow-sequence", 
+            "text": "Use cases with flow through the system for common paths i.e. one for csv one for client etc\nMaybe for common sub-systems i.e. how does auto scaling and monitoring work", 
+            "title": "Dataflow / Sequence"
+        }, 
+        {
+            "location": "/#security", 
+            "text": "Common security mechanisms i.e. SMS protection\nWhitelisting etc", 
+            "title": "Security"
+        }, 
+        {
+            "location": "/#other-technical-documents", 
+            "text": "link to other python documentations", 
+            "title": "Other technical documents"
         }, 
         {
             "location": "/about/", 
